@@ -7,14 +7,19 @@
 @import "partials/documentation.css";
 @import "partials/history.css";
 
-/* Native widgets (e.g. select popups) follow the page color scheme,
- * which must be declared on the root element, not just on body. */
+:root {
+  /* Brand */
+  --otterwiki-lm-bg: #fff;
+  --otterwiki-lm-surface: #e9eaec;
+  --otterwiki-lm-hover: rgba(165, 165, 165, 0.288);
+}
+
 :root:has(body.dark-mode) {
     color-scheme: dark;
 }
 
 .navbar {
-    background: #fff;
+    background: var(--otterwiki-lm-bg);
     border-bottom: 1px solid #e9eaec;
 }
 
