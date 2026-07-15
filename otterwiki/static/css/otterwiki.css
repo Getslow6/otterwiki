@@ -161,9 +161,6 @@ pre,
     padding: 0.2rem;
 }
 
-button.copy-to-clipboard {
-}
-
 .dark-mode code,
 .dark-mode pre,
 .dark-mode .code {
@@ -336,9 +333,6 @@ pre.mermaid {
 
 .extra-nav::-webkit-scrollbar-thumb {
     background-color: transparent;
-}
-
-.dark-mode .extra-nav {
 }
 
 .extra-nav .sidebar-title {
