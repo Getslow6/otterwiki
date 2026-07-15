@@ -1,0 +1,19 @@
+table {
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px solid #e9eaec;;
+}
+
+th {
+  background: #e9eaec !important;
+  font-weight: 600;
+}
+
+td {
+  background: #ffffff;
+  border: 1px solid #e9eaec !important;
+}
+
+tr:hover td {
+  background: #f8fafc;
+}
