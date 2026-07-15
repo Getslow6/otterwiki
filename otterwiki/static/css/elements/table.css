@@ -1,19 +1,19 @@
 table {
   overflow: hidden;
   border-radius: 5px;
-  border: 1px solid #e9eaec;;
+  border: 1px solid var(--otterwiki-lm-surface);
 }
 
 th {
-  background: #e9eaec !important;
+  background: var(--otterwiki-lm-surface) !important;
   font-weight: 600;
 }
 
 td {
-  background: #ffffff;
-  border: 1px solid #e9eaec !important;
+  background: var(--otterwiki-lm-bg);
+  border: 1px solid var(--otterwiki-lm-surface) !important;
 }
 
 tr:hover td {
-  background: #f8fafc;
+  background: var(--otterwiki-lm-hover);
 }
