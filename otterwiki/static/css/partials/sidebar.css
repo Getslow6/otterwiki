@@ -234,11 +234,15 @@ a.sidebar-toc-6 { padding-left: calc(7 * var(--spacing) - var(--radius) - 13px);
 
 .sidebar-link {
     padding-left: 1rem;
+    border-radius: 10px;
 }
 
 .sidebar-link:hover {
-    background-color: #d5d8df5e;
-    border-radius: 10px;
+    background-color: var(--otterwiki-hover);
+}
+
+.sidebar-otter .sidebar-link:hover {
+    background-color: transparent;
 }
 
 .sidebar-icon {

@@ -8,18 +8,19 @@
 @import "partials/history.css";
 
 :root {
-  /* Brand */
-  --otterwiki-lm-bg: #fff;
-  --otterwiki-lm-surface: #e9eaec;
-  --otterwiki-lm-hover: rgba(165, 165, 165, 0.288);
+    /* Brand */
+    --otterwiki-bg: #fff;
+    --otterwiki-surface: #e9eaec;
+    --otterwiki-hover: rgba(165, 165, 165, 0.288);
 }
 
 :root:has(body.dark-mode) {
     color-scheme: dark;
+    --otterwiki-hover: rgba(255, 255, 255, 0.071);
 }
 
 .navbar {
-    background: var(--otterwiki-lm-bg);
+    background: var(--otterwiki-bg);
     border-bottom: 1px solid #e9eaec;
 }
 
